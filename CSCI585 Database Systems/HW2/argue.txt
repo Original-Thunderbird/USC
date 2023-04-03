@@ -1,0 +1,8 @@
+1. -1.5 missed multiple constraints(floor number (1-10) , meeting start time (8-18), scan time(0-23) etc, please refer to the rubric solution)
+Reply: The HW2 description is in the tone "Don't worry about time columns. Just make meeting_start_time an int between (8-18), for convenience". In other words, the description doesn't stress on constraints. It served as a mere template and the course staff repeatedly assured this in Piazza posts. Even the rubric does not state that the constraint must be added at the step of table creation, otherwise marks will be duducted. As long as the value inserted meets such requirement it should be fine, and all my inserted tuples met such requirements.
+
+2. -0.5 question 3 requires data related to "Sick" value in "status" attribute of "health status".
+Reply: We were told in the HW instruction that 'do feel free to assume anything else you need, to answer the questions below', and in the requirement of Q3, we are required to output the 'sickest' floor, which clearly gives room for such kind of assumption, and I have given my assumption in the README file: 'I assume the 'sickest' floor means floor(s) with the most people tested positive for COVID-19' and my inplementation strictly follows such assumption.
+
+3. -0.5 number of positive cases and number of tests are two separate parts of a question, you have to produce separate outputs.
+The rubirc says 'No deductionsfor any alternate query structure thatcan produce the same results as the above queries'. I have run those queries given in the rubric and they produced the same result with the queries I use. The rubric also does not say that marks should be deducted besause two queries are combined into one.

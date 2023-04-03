@@ -1,0 +1,36 @@
+-- Postgres+PostGIS used
+create extension POSTGIS;
+
+CREATE TABLE geometries (name varchar, geom geometry);
+
+INSERT INTO geometries VALUES
+  ('Home', 'POINT(-118.3010161 34.0242916)'),
+  ('Lyon Center', 'POINT(-118.287698 34.024245)'),
+  ('Kaprielian', 'POINT(-118.290672 34.022288)'),
+  ('SGM Building', 'POINT(-118.289315 34.021145)'),
+  ('Viterbi', 'POINT(-118.287908 34.020054)'),
+  ('CS Center', 'POINT(-118.28919 34.0194)'),
+  ('George Statue', 'POINT(-118.28621 34.018882)'),
+  ('Tommy Trojan', 'POINT(-118.285394 34.020425)'),
+  ('Sol Price', 'POINT(-118.2834387 34.0195172)'),
+  ('USCard service', 'POINT(-118.2826513 34.0205713)'),
+  ('Royal Street', 'POINT(-118.2823125 34.0218059)'),
+  ('Phillips Hall', 'POINT(-118.2834481 34.0218769)'),
+  ('Herman Ostrow', 'POINT(-118.2857329 34.0235499)');
+SELECT name, ST_AsText(geom) FROM geometries;
+
+-- compute the convex hull
+SELECT 
+    ST_AsText(ST_ConvexHull(ST_Collect(geometries.geom)))
+    FROM geometries;
+
+-- compute the four nearest neighbors
+SELECT geometries.name, ST_AsText(geometries.geom),
+  ST_Distance(geometries.geom, 'POINT(-118.3010161 34.0242916)') AS dist
+FROM
+  geometries
+WHERE
+	geometries.name != 'Home'
+ORDER BY
+  geometries.geom <-> 'POINT(-118.3010161 34.0242916)'::geometry
+LIMIT 4;

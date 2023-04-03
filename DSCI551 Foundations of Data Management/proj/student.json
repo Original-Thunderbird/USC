@@ -1,0 +1,101 @@
+[
+    {
+        "ID": "4454226030",
+        "Name": "Alice",
+        "SpecName": "General",
+        "Hired": true,
+        "CompName": "Nutanix",
+        "Role": "SDE Intern"
+    },
+    {
+        "ID": "7267887628",
+        "Name": "Adam",
+        "SpecName": "Software Engineering",
+        "Hired": true,
+        "CompName": "Cisco",
+        "Role": "SRE Intern"
+    },
+    {
+        "ID": "9282851045",
+        "Name": "Abigail",
+        "SpecName": "Data Science",
+        "Hired": true,
+        "CompName": "Cisco",
+        "Role": "QA Engineer Intern"
+    },
+    {
+        "ID": "7780036570",
+        "Name": "Aileen",
+        "SpecName": "Artificial Intelligence",
+        "Hired": true,
+        "CompName": "Northrop Grumman",
+        "Role": "MLE Intern"
+    },
+    {
+        "ID": "5036977014",
+        "Name": "Abdullah",
+        "SpecName": "Intelligent Robotics",
+        "Hired": true,
+        "CompName": "Boston Dynamics",
+        "Role": "SDE Intern"
+    },
+    {
+        "ID": "8267803543",
+        "Name": "Ashigara",
+        "SpecName": "Multimedia and Creative Technologies",
+        "Hired": true,
+        "CompName": "Google",
+        "Role": "Frontend Intern"
+    },
+    {
+        "ID": "6305530378",
+        "Name": "Bob",
+        "SpecName": "High Performance Computing and Simulation",
+        "Hired": true,
+        "CompName": "University of Southern California",
+        "Role": "Research Intern"
+    },
+    {
+        "ID": "6305530378",
+        "Name": "Bob",
+        "SpecName": "High Performance Computing and Simulation",
+        "Hired": true,
+        "CompName": "Expedia",
+        "Role": "SDE Intern"
+    },
+    {
+        "ID": "1707796790",
+        "Name": "Bremen",
+        "SpecName": "Scientists & Engineers",
+        "Hired": true,
+        "CompName": "Northrop Grumman",
+        "Role": "SDE Intern"
+    },
+    {
+        "ID": "4908016873",
+        "Name": "Bianca",
+        "SpecName": "High Performance Computing and Simulation",
+        "Hired": true,
+        "CompName": "Northrop Grumman",
+        "Role": "Research Intern"
+    },
+    {
+        "ID": "2784304057",
+        "Name": "Branny",
+        "SpecName": "Artificial Intelligence",
+        "Hired": true,
+        "CompName": "Amazon",
+        "Role": "Project Manager Intern"
+    },
+    {
+        "ID": "2789978083",
+        "Name": "Brigitte",
+        "SpecName": "Intelligent Robotics",
+        "Hired": true,
+        "CompName": "Meta",
+        "Role": "MLE Intern"
+    },
+    {
+
+    }
+]

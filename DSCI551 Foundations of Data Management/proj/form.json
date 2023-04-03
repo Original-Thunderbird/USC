@@ -1,0 +1,19 @@
+{   
+  "select":[      
+    "name",      
+    "size"   
+  ],   
+  "from": "student",   
+  "where":[      
+    {         
+      "attr":"size",         
+      "value":0,         
+      "method":">="      
+    },      
+    {         
+      "attr":"size",         
+      "value":9999,         
+      "method":"<="      
+    }   
+  ]
+}

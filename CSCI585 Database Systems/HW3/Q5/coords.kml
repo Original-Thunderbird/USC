@@ -1,0 +1,202 @@
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle>
+<Icon>
+<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>Home</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.3010161,34.0242916</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Lyon Center</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.287698,34.024245</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Kaprielian</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.290672,34.022288</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SGM Building</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.289315,34.021145</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Viterbi</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.287908,34.020054</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>CS Center</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28919,34.0194</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>George Statue</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28621,34.018882</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Tommy Trojan</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.285394,34.020425</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Sol Price</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.2834387,34.0195172</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>USCard service</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.2826513,34.0205713</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Royal Street</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.2823125,34.0218059</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Phillips Hall</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.2834481,34.0218769</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>Herman Ostrow</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.2857329,34.0235499</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+    <name>The Pentagon</name>
+    <Polygon>
+      <extrude>1</extrude>
+      
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -118.28621,34.018882
+	-118.28919,34.0194
+	-118.3010161,34.0242916
+	-118.287698,34.024245
+	-118.2857329,34.0235499
+	-118.2823125,34.0218059
+	-118.2826513,34.0205713
+	-118.2834387,34.0195172
+	-118.28621,34.01888
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+
+<Placemark> 
+ <name>line(Home,Kaprielian)</name>
+ <LineString>
+  <coordinates>
+   -118.290672,34.022288 
+   -118.3010161,34.0242916
+  </coordinates>
+ </LineString>
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+   <width>5</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+
+<Placemark> 
+ <name>line(Home,SGM Building)</name>
+ <LineString>
+  <coordinates>
+   -118.289315,34.021145 
+   -118.3010161,34.0242916
+  </coordinates>
+ </LineString>
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+   <width>5</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+
+<Placemark> 
+ <name>line(Home,Lyon Center)</name>
+ <LineString>
+  <coordinates>
+   -118.287698,34.024245 
+   -118.3010161,34.0242916
+  </coordinates>
+ </LineString>
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+   <width>5</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+
+<Placemark> 
+ <name>line(Home,CS Center)</name>
+ <LineString>
+  <coordinates>
+   -118.28919,34.0194 
+   -118.3010161,34.0242916
+  </coordinates>
+ </LineString>
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+   <width>5</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+
+</Document>
+</kml>

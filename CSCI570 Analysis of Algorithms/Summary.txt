@@ -1,0 +1,21 @@
+Basic DP algorithm: 
+Keep an m+1*n+1 size 2d-array to store cost bottom up. The minimum cost is on the position m, n.  By comparing cost and gap penalties, we can find the alignment corresponding to that minimum cost and construct corresponding alignment.. 
+
+Efficient Divide and conquer algorithm：
+The 2d-array for cost storing is reduced to 1d-array to save space. A global list is used to record the divide and conquer splitting index. We find the best splitting index by comparing cost between the first half of String A and all possible substrings of String B, both forward and backward. We generate new alignments one by one according to the splitting index that we recorded and use the basic DP algorithm when the length is less than or equal to 2.
+
+Basic vs Efficient Memory and time:
+The efficient divide and conquer algorithm reduces the memory usage by only recording the splitting index instead of the whole 2d-array. As the problem size increases, the complexity m+n for the efficient algorithm gains huge advantages over the basic algorithm at the cost of longer running time. This is only obvious with large problem sizes due to those extra variables and call stack we use.
+With the increase of problem size, we found that the memory usage of basic algorithms grows polynomially and the memory of usage of efficient algorithms grows linearly.
+As for the CPU Time, the basic algorithm takes less time to complete the computation than the efficient algorithm.
+
+Java-specific problem?
+We found that the memory usage is rather unstable, especially when the problem size is low. Perhaps this is caused by garbage collection schema and adaptive memory allocation of JVM.
+
+Contribution:
+Lingyun Li(8898675182): Implemented memory-efficient version using bottom-up construction;
+Debugged string generator and top-down construction for basic version; Ran input file on final version and plot memory and time graph based on different problem size; Wrote summary 
+
+Dongzhe Jiang(7959903038): Implemented the first version of memory-efficient algorithm; implemented shell script; wrote summary
+
+Haorui Chen(4454226030): Implemented string generator; implemented basic version; implemented memory-efficient version using global list for verification (mainly of memory usage); reformatted output to txt; wrote script for plot generation; monitored overall project progress.

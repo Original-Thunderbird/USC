@@ -1,0 +1,27 @@
+{
+  "bookid": "1",
+  "date": "20090806",
+  "author": [
+    "Eva Tardos",
+    "Jon Kleinberg"
+  ],
+  "dimensions": [
+    8,
+    1.25,
+    9
+  ],
+  "ISBN": [
+    "0321295354",
+    "978-0321295354",
+    1.34,
+    18
+  ],
+  "pages": 864,
+  "float_pages": 864.0,
+  "rank": {
+    "Computer Algorithms": 7,
+    "Programming Algorithms": 15,
+    "noob": "4ww4vtq"
+  },
+  "title": "Algorithm Design 1st Edition"
+}

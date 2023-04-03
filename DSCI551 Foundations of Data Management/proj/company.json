@@ -1,0 +1,58 @@
+[
+    {
+        "Company": "Google",
+        "Industry": "Tech"
+    },
+    {
+        "Company": "Expedia",
+        "Industry": "Travel Shooping"
+    },
+    {
+        "Company": "Roblox",
+        "Industry": "Game Platform"
+    },
+    {
+        "Company": "Doordash",
+        "Industry": "Food Delivery"
+    },
+    {
+        "Company": "Nutanix",
+        "Industry": "Cloud Computing"
+    },
+    {
+        "Company": "Cisco",
+        "Industry": "Digital Communication"
+    },
+    {
+        "Company": "Northrop Grumman",
+        "Industry": "Defense"
+    },
+    {
+        "Company": "Boston Dynamics",
+        "Industry": "Robotics"
+    },
+    {
+        "Company": "University of Southern California",
+        "Industry": "Education"
+    },
+    {
+        "Company": "Amazon",
+        "Industry": "Tech"
+    },
+    {
+        "Company": "Meta",
+        "Industry": "Tech"
+    },
+    {
+        "Company": "Microsoft",
+        "Industry": "Tech"
+    },
+    {
+        "Company": "Hudson River Trading",
+        "Industry": "Quantitative Trading"
+    },
+    {
+        "Company": "Hudson River Trading",
+        "Industry": "Quantitative Trading"
+    }
+]
