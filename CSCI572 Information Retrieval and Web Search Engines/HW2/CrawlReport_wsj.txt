@@ -1,0 +1,44 @@
+Name: Haorui Chen
+USC ID: 4454226030
+News site crawled: wsj.com
+Number of threads: 6
+
+Fetch Statistics
+================
+fetches attempted: 19998
+fetches succeeded: 16084
+fetches failed or aborted: 3914
+
+Outgoing URLs:
+==============
+Total URLs extracted: 4764532
+# unique URLs extracted: 1565382
+# unique URLs within News Site: 201026
+# unique URLs outside News Site: 1364356
+
+Status Codes:
+=============
+200 OK: 16084
+301 Moved Permanently: 597
+302 Found: 13
+307 Temporary Redirect: 84
+308 Permanent Redirect: 1
+400 Bad Request: 2
+403 Forbidden: 2326
+404 Not Found: 137
+500 Internal Server Error: 754
+
+File Sizes:
+===========
+< 1KB: 1
+1KB ~ <10KB: 145
+10KB ~ <100KB: 65
+100KB ~ <1MB: 15120
+>= 1MB: 732
+
+Content Types:
+==============
+image/jpeg: 10
+image/png: 158
+image/vnd.microsoft.icon: 1
+text/html: 15894

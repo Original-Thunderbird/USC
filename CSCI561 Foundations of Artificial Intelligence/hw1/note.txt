@@ -1,0 +1,15 @@
+检查方式：
+compute cost of the path, see if it is valid && whether the cost is the same as TA compute
+
+A*
+每一轮取出来的点作为E_curr, neighbor作为E_next。
+只要从E_curr能访问E_next，就计算momentum = max(0, |E_curr| - |E_next|)，momentum是否参与cost计算等到下一轮决定
+第二轮算cost
+对能访问的E_next，
+（问题：M>0时cost恒大于0？）
+
+A* 思路
+探索邻居时先把所有可访问邻居入队
+从队里拿出cell后额外判断可访问邻居是否增加，若cost增加但可访问邻居数量同样增加，说明从该cell出发有新可探索路径
+增加parent指针？
+state中记录参数：cost, 可到达neighbor数量（每个数量记录对应cost?还是记录最大数量对应的cost?）

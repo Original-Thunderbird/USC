@@ -1,0 +1,2 @@
+From the statistics, we can see that result retrieved from Yahoo and Google have a pretty low average percent overlap, and average Spearman Coefficient is also negative, showing that results from the 2 engines are unrelated. It means that they use different algorithms to rank those URLs and determine the relevancy of the URL in relation to the
+query.

@@ -1,0 +1,14 @@
+{
+  "files.associations": {
+    "iostream": "cpp",
+    "string": "cpp",
+    "string_view": "cpp",
+    "ostream": "cpp",
+    "chrono": "cpp",
+    "homework": "cpp",
+    "iosfwd": "cpp",
+    "sstream": "cpp",
+    "deque": "cpp",
+    "vector": "cpp"
+  }
+}

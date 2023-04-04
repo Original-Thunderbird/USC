@@ -1,0 +1,53 @@
+假设自己为b，对面为w
+bwwwwb 高于 .bbbb.
+bwwwb / bwww.b 高于 .bbb..
+wbbbb. + .bbb. == wbbbb. + wbbbb. == .bbb. + .bbb. 略 < .bbbb. (加法要两轮成功, .bbbb.只要一轮)
+wbbb.. + .bb.. == wbbb.. + wbbb.. == .bb.. + .bb.. 略 < .bbb. (加法要三轮成功, .bbbb.只要两轮)
+wbbbb. 高于 .bbb. (.bbb.要一轮变成wbbb.)
+wbbbb. / .bbb. 高于 bwwb (可强制先手)
+bwwb 高于 wbbb.
+wbbb. 高于 .bb..  (.bb.要一轮变成wbbb.)
+bwwb 高于 .bb..
+wb.bbb. 高于 wbbb.b.
+.bwww. / .wbww. 低于 wbbb.b
+.bww. 低于 capture
+.bww. 高于 
+
+INT_MAX   2,000,000,000
+
+BD4_1/WD4_1	bwwwwb    500,000,000
+BD4_2/WD4_2	wwwbw     500,000,000  f		250,000,000
+BD4_3/WD4_3	b..bww    500,000,000 (&& capture)  f	250,000,000
+
+BA4_A1/WA4_A1	.bbbb.    120,000,000
+BA4_A2/WA4_A2	.bbb.b.   110,000,000  f		 55,000,000  
+BA4_A3/WA4_A3	.bb.bb.    65,000,000
+
+BA4_B1/WA4_B1	wbbbb.     60,000,000  f		 30,000,000
+BA4_B2/WA4_B2	wbbb.b     56,000,000  f		 28,000,000
+BA4_B3/WA4_B3	wbb.bb.    14,000,000  f		  7,000,000
+BA4_B4/WA4_B4	wb.bbb     58,000,000  f		 28,000,000
+
+BD3_A1/WD3_A1	.bwww.     55,000,000  f		 27,500,000
+BD3_A2/WD3_A2	.wbww.     55,000,000  f		 27,500,000
+
+BA3_A1/WA3_A1	.bbb..     50,000,000  f		 25,000,000
+BA3_A2/WA3_A2	.bb.b.     42,000,000  f		 21,000,000
+BA3_A3/WA3_A3	.bb..b     12,000,000  f		  6,000,000
+
+BD3_B1/WD3_B1	bwwwb.     40,000,000  f		 20,000,000
+BD3_B2/WD3_B2	bwww.b     35,000,000  f		 17,500,000
+BD3_B3/WD3_B3	b..bw      35,000,000 (&& capture)  f	 17,500,000
+BD3_B4/WD3_B4	bwbww.     35,000,000  f		 17,500,000
+
+bwwb.      30,000,000
+
+BA3_B1/WA3_B1	wbbb..     15,000,000  f		  7,500,000
+BA3_B2/WA3_B2	wb.bb.      9,000,000  f		  4,500,000
+
+BA2_A1/WA2_A1	.bb..      10,000,000  f		  5,000,000
+BA2_A2/WA2_A2	.b.b.       5,000,000
+
+BD2/WD2	bww.        3,000,000  f		  1,500,000
+
+
